@@ -7,7 +7,7 @@ description: Self mixture-of-agents for Claude Code - three independent Claude d
 
 Three independent Claude answers to the same question (yours plus two fresh subagents), combined by you. No other providers, no API keys, nothing leaves Claude.
 
-Why Claude-only: in blind tests (see `golden/` in this repo), three Claude drafts combined tied a panel that mixed in Gemini and GPT (4 wins each, 6 ties, two judges), and the gain over a single answer came from having more drafts. That matches the Self-MoA paper (Li et al., arXiv 2502.00674): mixing models often lowers average quality, while sampling the strongest model several times keeps quality and still adds variety.
+Why Claude-only: in blind tests (see `golden/` in this repo), three Claude drafts combined tied a panel that mixed in Gemini and GPT (4 wins each, 6 ties, two judges), and in a direct test beat a single Claude answer 9-0 with 5 ties (a small edge in detail, 7 questions). That matches the Self-MoA paper (Li et al., arXiv 2502.00674): mixing models often lowers average quality, while sampling the strongest model several times keeps quality and still adds variety.
 
 ## Steps
 1. Write the full question to a prompt file in the scratchpad, with any context the drafters need: subagents can't see this conversation.

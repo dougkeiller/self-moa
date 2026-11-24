@@ -9,6 +9,7 @@ Most MoA setups mix models from several labs. In blind tests here, that bought n
 | Comparison (7 open-ended questions, two blind judges) | Result |
 |---|---|
 | Mixed panel (Claude + Gemini 4 Neon + GPT-6.2 Sol) vs one Claude answer | mixed panel preferred on 3, single on 1, rest split/tie |
+| Three Claude drafts combined vs one Claude answer (direct test) | three drafts 9, tie 5, single 0 of 14 verdicts; judges agree on 3 of 7. Rubric scores mostly equal: a small, consistent edge from sharper detail |
 | Three Claude drafts vs the mixed panel | 4 wins each, 6 ties out of 14 verdicts |
 
 The gain over a single answer came from having more drafts, not from other labs. On 7 factual questions with checkable answers, every model already scored 7/7, so there was nothing to gain. This matches the published research: [Self-MoA](https://arxiv.org/abs/2502.00674) found sampling the top model several times beats mixing models in most settings, and a [67-model study](https://arxiv.org/abs/2606.27288) found combining models "rarely beats the single best model" on checkable tasks.
