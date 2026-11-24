@@ -1,0 +1,10 @@
+{
+  "name": "self-moa",
+  "owner": { "name": "Doug Keiller" },
+  "metadata": { "description": "Claude-only mixture of agents for Claude Code", "version": "1.0.0" },
+  "plugins": [
+    { "name": "self-moa", "source": "./", "version": "0.1.0",
+      "description": "Three independent Claude drafts combined into one answer",
+      "keywords": ["mixture-of-agents", "moa", "self-moa"] }
+  ]
+}

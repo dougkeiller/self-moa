@@ -1,0 +1,8 @@
+{
+  "name": "self-moa",
+  "version": "0.1.0",
+  "description": "Mixture of agents with Claude only: three independent Claude drafts in parallel, combined by Claude into one answer showing agreement and disagreement. Blind-tested against a mixed-provider panel.",
+  "author": { "name": "Doug Keiller" },
+  "keywords": ["mixture-of-agents", "moa", "self-moa", "critical-thinking", "review"],
+  "license": "MIT"
+}
