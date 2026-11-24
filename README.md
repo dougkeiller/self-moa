@@ -25,7 +25,7 @@ claude plugin marketplace add dougkeiller/self-moa
 claude plugin install self-moa@self-moa
 ```
 
-Or copy `skills/mixture/` into `~/.claude/skills/`.
+Or copy `plugin/skills/mixture/` into `~/.claude/skills/`.
 
 ## Use
 
