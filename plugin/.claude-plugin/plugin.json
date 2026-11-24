@@ -2,7 +2,20 @@
   "name": "self-moa",
   "version": "0.1.0",
   "description": "Mixture of agents with Claude only: three independent Claude drafts in parallel, combined by Claude into one answer showing agreement and disagreement. Blind-tested against a mixed-provider panel.",
-  "author": { "name": "Doug Keiller" },
-  "keywords": ["mixture-of-agents", "moa", "self-moa", "critical-thinking", "review"],
-  "license": "MIT"
+  "author": {
+    "name": "Doug Keiller"
+  },
+  "keywords": [
+    "mixture-of-agents",
+    "moa",
+    "self-moa",
+    "critical-thinking",
+    "review"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/dougkeiller/self-moa",
+  "repository": "https://github.com/dougkeiller/self-moa",
+  "supportUrl": "https://github.com/dougkeiller/self-moa/issues",
+  "documentationUrl": "https://github.com/dougkeiller/self-moa#readme",
+  "privacyPolicyUrl": "https://github.com/dougkeiller/self-moa/blob/main/PRIVACY.md"
 }
